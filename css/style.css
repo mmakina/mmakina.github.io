@@ -1,0 +1,68 @@
+#home{
+    background-color:#01BAB3 !important;
+    height:100vh;
+
+    padding-top:10em;
+    color:snow;
+}
+#whoAmI{
+    background-color: #343434;
+    color:snow;
+    padding-top:3.5em;
+}
+.modal img{
+    height:90vh;
+    width:45vw;
+}
+.modal{
+   
+    width:45vw;
+}
+.carousel{
+    height:90vh;
+    width:45vw;
+}
+.progress-bar{
+    margin-left:-1.2em !important;
+    background-color: #01BAB3;
+}
+button{
+    margin-bottom:1em !important;
+}
+.progress{
+    max-width:350px;
+    margin-right:1em;
+}
+.progress span{
+    color:black;
+}
+.thumbnail img{
+    height:400px;
+}
+
+#contact{
+ background: linear-gradient(to right,#1E1E1E,#2A2D2E);
+    padding:0.3em;
+}
+
+@media screen and (max-width: 768px){
+    .nav{
+        display:none !important;
+    }
+    .nav li{
+        border-bottom: 1px solid gray !important;
+    }
+    .modal img{
+    height:100vh;
+    width:100vw;
+    
+}
+.modal{
+    height:auto;
+    width:auto;
+}
+.carousel{
+   height:100vh;
+    width:100vw;
+}
+}
