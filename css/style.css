@@ -14,6 +14,9 @@
     height:90vh;
     width:45vw;
 }
+svg{
+    max-width:100px;
+}
 .modal{
    
     width:45vw;
